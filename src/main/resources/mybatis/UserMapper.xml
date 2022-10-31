@@ -5,16 +5,19 @@
 <mapper namespace="jiangziyi.dao.UserDao">
     <!--查询所有用户-->
     <select id="listUser" resultType="jiangziyi.pojo.User">
-        select * from mybatis.user;
+        select *
+        from mybatis.user;
     </select>
+
     <!--根据id查询用户-->
     <select id="queryUserById" parameterType="jiangziyi.pojo.query.UserQuery" resultType="jiangziyi.pojo.User">
         select *
-        from mybatis.user where id=#{id};
+        from mybatis.user
+        where id = #{id};
     </select>
 
     <!--根据name模糊查询-->
-    <select id="listUserName" parameterType="jiangziyi.pojo.query.UserQuery" resultType="jiangziyi.pojo.User">
+    <select id="listUserByName" parameterType="jiangziyi.pojo.query.UserQuery" resultType="jiangziyi.pojo.User">
         select *
         from mybatis.user
         <where>
@@ -25,8 +28,34 @@
     </select>
 
     <!--根据id删除用户-->
-    <delete id="deleteUserById" parameterType="int">
+    <delete id="deleteUser" parameterType="int">
         delete
-        from mybatis.user where id=#{id}
+        from mybatis.user
+        where id = #{id}
     </delete>
+
+    <!--新增用户-->
+    <insert id="addUser" parameterType="jiangziyi.pojo.User">
+        insert into mybatis.user(name, pwd, perms)
+        values (#{name}, #{pwd}), #{perms})
+    </insert>
+
+    <!--根据id修改用户-->
+    <select id="updateUser" parameterType="jiangziyi.pojo.User">
+        update mybatis.user
+        <set>
+            <if test="name !=null">
+                name = #{name}
+            </if>
+            <if test="pwd !=null">
+                pwd = #{pwd},
+            </if>
+            <if test="perms !=null">
+                perms = #{perms},
+            </if>
+        </set>
+        <where>
+            id = #{id}
+        </where>
+    </select>
 </mapper>
