@@ -16,15 +16,22 @@
         where id = #{id};
     </select>
 
-    <!--根据name模糊查询-->
-    <select id="listUserByName" parameterType="jiangziyi.pojo.query.UserQuery" resultType="jiangziyi.pojo.User">
+    <!--根据用户名模糊查询-->
+    <select id="getUserByUserName" parameterType="jiangziyi.pojo.query.UserQuery" resultType="jiangziyi.pojo.User">
         select *
         from mybatis.user
         <where>
-            <if test="name != null and name != ''">
-                and `name` like concat('%',#{name},'%')
+            <if test="userName != null and userName != ''">
+                and `userName` like concat('%',#{userName},'%')
             </if>
         </where>
+    </select>
+
+    <!--根据name查询用户-->
+    <select id="getUserByName" parameterType="java.lang.String" resultType="jiangziyi.pojo.User">
+        select *
+        from mybatis.user
+        where name = #{name}
     </select>
 
     <!--根据id删除用户-->
@@ -36,8 +43,8 @@
 
     <!--新增用户-->
     <insert id="addUser" parameterType="jiangziyi.pojo.User">
-        insert into mybatis.user(name, pwd, perms)
-        values (#{name}, #{pwd}), #{perms})
+        insert into mybatis.user(name, userName, password, role, roleName)
+        values (#{name}, #{userName}), #{password}), #{role}, #{roleName})
     </insert>
 
     <!--根据id修改用户-->
@@ -47,11 +54,17 @@
             <if test="name !=null">
                 name = #{name}
             </if>
-            <if test="pwd !=null">
-                pwd = #{pwd},
+            <if test="password !=null">
+                password = #{password},
             </if>
-            <if test="perms !=null">
-                perms = #{perms},
+            <if test="userName !=userName">
+                userName = #{userName},
+            </if>
+            <if test="role !=role">
+                role = #{role},
+            </if>
+            <if test="roleName !=roleName">
+                roleName = #{roleName},
             </if>
         </set>
         <where>

@@ -1,11 +1,8 @@
 package jiangziyi.service;
 
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
 import jiangziyi.dao.UserDao;
 import jiangziyi.pojo.User;
 import jiangziyi.pojo.query.UserQuery;
-import jiangziyi.sys.ResultObj;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -37,8 +34,14 @@ public class UserServiceImpl implements UserService {
 
     // 根据用户名查询用户 并分页展示
     @Override
-    public List<User> listUserByName(UserQuery userQuery) {
-        return userDao.listUserByName(userQuery);
+    public List<User> getUserByUserName(UserQuery userQuery) {
+        return userDao.getUserByUserName(userQuery);
+    }
+
+    // 根据name查询用户
+    @Override
+    public User getUserByName(String name) {
+        return userDao.getUserByName(name);
     }
 
     // 根据id删除用户

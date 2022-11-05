@@ -22,8 +22,11 @@ public interface UserDao {
     // 根据id查询用户
     User queryUserById(Integer id);
 
-    // 根据name查询用户 并分页展示
-    List<User> listUserByName(UserQuery userQuery);
+    // 根据用户名查询用户 并分页展示
+    List<User> getUserByUserName(UserQuery userQuery);
+
+    // 根据name查询用户
+    User getUserByName(String name);
 
     // 根据id删除用户
     int deleteUser(Integer id);
@@ -35,6 +38,6 @@ public interface UserDao {
     boolean updateUser(User user);
 
     // 根据id修改用户
-    @Insert("insert into mybatis.user(name,pwd,perms)values(#{name},#{pwd},#{perms})")
+    @Insert("insert into mybatis.user(name,password,role)values(#{name},#{password},#{role})")
     boolean updateUserMyBatis(User user);
 }

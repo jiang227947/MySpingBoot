@@ -1,5 +1,6 @@
 package jiangziyi.controller;
 
+import cn.dev33.satoken.stp.StpUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import jiangziyi.pojo.User;
@@ -41,18 +42,30 @@ public class UserController {
      * */
     @GetMapping("/queryUserById/{id}")
     public ResultObj queryUserById(@PathVariable("id") Integer id) {
-        return new ResultObj(200, "查询成功", userService.queryUserById(id));
+        User user = userService.queryUserById(id);
+        user.setSaTokenInfo(StpUtil.getTokenInfo());
+        return new ResultObj(200, "查询成功", user);
+    }
+
+    /*
+     * 根据用户名查询用户
+     * post
+     * */
+    @PostMapping("/getUserByUserName")
+    @ResponseBody
+    public PageInfo<User> getUserByUserName(UserQuery userQuery) {
+        PageHelper.startPage(userQuery.getPageNum(), userQuery.getPageSize());
+        return new PageInfo<User>(userService.getUserByUserName(userQuery));
     }
 
     /*
      * 根据name查询用户
      * post
      * */
-    @PostMapping("/listUserByName")
+    @PostMapping("/getUserByName")
     @ResponseBody
-    public PageInfo<User> listUserByName(UserQuery userQuery) {
-        PageHelper.startPage(userQuery.getPageNum(), userQuery.getPageSize());
-        return new PageInfo<User>(userService.listUserByName(userQuery));
+    public User getUserByName(String name) {
+        return userService.getUserByName(name);
     }
 
     /*
@@ -74,8 +87,8 @@ public class UserController {
     @PostMapping("/addUser")
     public ResultObj addUser(User user, UserQuery userQuery) {
         Integer id = user.getId();
-        userQuery.setName(user.getName());
-        List<User> userList = userService.listUserByName(userQuery);
+        userQuery.setUserName(user.getName());
+        List<User> userList = userService.getUserByUserName(userQuery);
         if (id != null) {
             if (userList.size() == 0) {
                 boolean b = userService.updateUser(user);
