@@ -37,6 +37,9 @@ public interface UserDao {
     // 根据id修改用户
     boolean updateUser(User user);
 
+    // 根据id修改用户最后登录时间
+    void updateUserLastLoginTime(Integer id, String lastLoginTime);
+
     // 根据id修改用户
     @Insert("insert into mybatis.user(name,password,role)values(#{name},#{password},#{role})")
     boolean updateUserMyBatis(User user);

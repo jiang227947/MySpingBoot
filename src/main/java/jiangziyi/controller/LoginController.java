@@ -10,7 +10,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Objects;
+import java.util.TimeZone;
 
 
 @Slf4j
@@ -43,7 +46,6 @@ public class LoginController {
     // 登录
     @PostMapping("/login")
     public ResultObj login(@RequestBody LoginUser loginUser) {
-        log.info("login === " + loginUser.getName());
         // 匹配账号密码
 //        return passwordError(loginUser.getName(), loginUser.getPassword());
         return passwordError(loginUser.getName(), loginUser.getPassword());
@@ -76,7 +78,13 @@ public class LoginController {
             StpUtil.login(user.getId());
             // 设置返回的用户信息和token
             user.setSaTokenInfo(StpUtil.getTokenInfo());
-            return new ResultObj(200, "登录成功", user);
+            // 设置最后登录时间
+            user.setLastLoginTime(user.getLastLoginTime());
+            ResultObj resultObj = new ResultObj(200, "登录成功", user);
+            String lastLoginTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+            // 根据id修改用户最后登录时间
+            userService.updateUserLastLoginTime(user.getId(), lastLoginTime);
+            return resultObj;
         } else {
             // 密码错误
             return new ResultObj(-1, "密码错误", null);

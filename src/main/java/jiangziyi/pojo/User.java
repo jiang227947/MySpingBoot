@@ -16,6 +16,7 @@ public class User {
     private String password; // 密码
     private String role;    // 角色
     private String roleName;    // 角色名称
+    private String lastLoginTime;    // 最后登录时间
 
     /*token信息*/
     private SaTokenInfo saTokenInfo;   // token数据

@@ -6,20 +6,20 @@
     <!--查询所有用户-->
     <select id="listUser" resultType="jiangziyi.pojo.User">
         select *
-        from mybatis.user;
+        from user;
     </select>
 
     <!--根据id查询用户-->
     <select id="queryUserById" parameterType="jiangziyi.pojo.query.UserQuery" resultType="jiangziyi.pojo.User">
         select *
-        from mybatis.user
+        from user
         where id = #{id};
     </select>
 
     <!--根据用户名模糊查询-->
     <select id="getUserByUserName" parameterType="jiangziyi.pojo.query.UserQuery" resultType="jiangziyi.pojo.User">
         select *
-        from mybatis.user
+        from user
         <where>
             <if test="userName != null and userName != ''">
                 and `userName` like concat('%',#{userName},'%')
@@ -30,26 +30,26 @@
     <!--根据name查询用户-->
     <select id="getUserByName" parameterType="java.lang.String" resultType="jiangziyi.pojo.User">
         select *
-        from mybatis.user
+        from user
         where name = #{name}
     </select>
 
     <!--根据id删除用户-->
     <delete id="deleteUser" parameterType="int">
         delete
-        from mybatis.user
+        from user
         where id = #{id}
     </delete>
 
     <!--新增用户-->
     <insert id="addUser" parameterType="jiangziyi.pojo.User">
-        insert into mybatis.user(name, userName, password, role, roleName)
+        insert into user(name, userName, password, role, roleName)
         values (#{name}, #{userName}), #{password}), #{role}, #{roleName})
     </insert>
 
     <!--根据id修改用户-->
     <select id="updateUser" parameterType="jiangziyi.pojo.User">
-        update mybatis.user
+        update user
         <set>
             <if test="name !=null">
                 name = #{name}
@@ -65,6 +65,19 @@
             </if>
             <if test="roleName !=roleName">
                 roleName = #{roleName},
+            </if>
+        </set>
+        <where>
+            id = #{id}
+        </where>
+    </select>
+
+    <!--根据id修改用户最后登录时间-->
+    <select id="updateUserLastLoginTime">
+        update user
+        <set>
+            <if test="lastLoginTime !=null">
+                lastLoginTime = #{lastLoginTime}
             </if>
         </set>
         <where>

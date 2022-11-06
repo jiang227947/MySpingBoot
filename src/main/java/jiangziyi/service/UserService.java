@@ -30,6 +30,9 @@ public interface UserService {
     // 根据id修改用户
     boolean updateUser(User user);
 
+    // 根据id修改用户最后登录时间
+    void updateUserLastLoginTime(Integer id, String lastLoginTime);
+
     // 根据id修改用户
     boolean updateUserMyBatis(User user);
 }

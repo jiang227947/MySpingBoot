@@ -62,6 +62,12 @@ public class UserServiceImpl implements UserService {
         return this.userDao.updateUser(user);
     }
 
+    // 根据id修改用户最后登录时间
+    @Override
+    public void updateUserLastLoginTime(Integer id, String lastLoginTime) {
+        this.userDao.updateUserLastLoginTime(id, lastLoginTime);
+    }
+
     // 根据id修改用户
     @Override
     public boolean updateUserMyBatis(User user) {

@@ -1,340 +1,368 @@
-2022-11-04 00:10:25.373  INFO 2224 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2022-11-04 00:10:25.634  INFO 2224 --- [Thread-16] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-11-04 00:10:25.644  INFO 2224 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 00:10:25.672  INFO 26420 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 26420 (started by jzywd in D:\Git\Java Code)
-2022-11-04 00:10:25.673 DEBUG 26420 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 00:10:25.703  INFO 26420 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 00:10:25.816  INFO 2224 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 2224 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 00:10:25.816 DEBUG 2224 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 00:10:25.816  INFO 2224 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 00:10:26.150  INFO 2224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-11-04 00:10:26.150  INFO 2224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 00:10:26.150  INFO 2224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 00:10:26.182  INFO 2224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 00:10:26.182  INFO 2224 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 361 ms
-2022-11-04 00:10:26.262  INFO 2224 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 00:10:26.328  INFO 2224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 00:10:26.344  INFO 2224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-04 00:10:26.349  INFO 2224 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 0.558 seconds (JVM running for 5137.523)
-2022-11-04 00:10:26.350  INFO 2224 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2022-11-04 00:10:27.217  INFO 26420 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 00:10:27.676  INFO 26420 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.391 seconds (JVM running for 3.356)
-2022-11-04 00:10:27.957  INFO 26420 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 00:28:47.864  INFO 26116 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 26116 (started by jzywd in D:\Git\Java Code)
-2022-11-04 00:28:47.865 DEBUG 26116 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 00:28:47.865  INFO 26116 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 00:28:49.256  INFO 26116 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 00:28:49.603  INFO 26116 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.024 seconds (JVM running for 2.83)
-2022-11-04 00:28:49.802  INFO 26116 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 00:51:02.657  INFO 2224 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 19:29:08.660  INFO 26188 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 26188 (started by jzywd in D:\Git\Java Code)
-2022-11-04 19:29:08.661 DEBUG 26188 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 19:29:08.662  INFO 26188 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 19:29:10.867  INFO 26188 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 19:29:11.227  INFO 26188 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 3.121 seconds (JVM running for 3.921)
-2022-11-04 19:29:11.552  INFO 26188 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 19:30:04.004  INFO 8456 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 8456 (started by jzywd in D:\Git\Java Code)
-2022-11-04 19:30:04.006 DEBUG 8456 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 19:30:04.008  INFO 8456 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 19:30:06.328  INFO 8456 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 19:30:06.791  INFO 8456 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 3.452 seconds (JVM running for 4.725)
-2022-11-04 19:30:07.093  INFO 8456 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:07:38.442  INFO 11272 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 11272 (started by jzywd in D:\Git\Java Code)
-2022-11-04 21:07:38.443 DEBUG 11272 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:07:38.443  INFO 11272 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:07:39.834  INFO 11272 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:07:40.169  INFO 11272 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.023 seconds (JVM running for 2.83)
-2022-11-04 21:07:40.400  INFO 11272 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:12:54.446  INFO 21688 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 21688 (started by jzywd in D:\Git\Java Code)
-2022-11-04 21:12:54.447 DEBUG 21688 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:12:54.448  INFO 21688 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:12:55.851  INFO 21688 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:12:56.201  INFO 21688 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.059 seconds (JVM running for 2.877)
-2022-11-04 21:12:56.421  INFO 21688 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:35:24.098  INFO 15052 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 15052 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 21:35:24.099 DEBUG 15052 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:35:24.100  INFO 15052 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:35:24.132  INFO 15052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 21:35:24.132  INFO 15052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 21:35:24.932  INFO 15052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 21:35:24.938  INFO 15052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 21:35:24.938  INFO 15052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 21:35:25.030  INFO 15052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 21:35:25.030  INFO 15052 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 898 ms
-2022-11-04 21:35:25.402  INFO 15052 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:35:25.552  INFO 15052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 21:35:25.578  INFO 15052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-04 21:35:25.579  INFO 15052 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-11-04 21:35:25.579  INFO 15052 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-11-04 21:35:25.580  INFO 15052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 21:35:25.587  INFO 15052 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.779 seconds (JVM running for 2.489)
-2022-11-04 21:35:39.445  WARN 15052 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:35:39.457  INFO 15052 --- [http-nio-8081-exec-4] jiangziyi.config.AuthInterceptor         : request tokenValue === null
-2022-11-04 21:39:06.528  WARN 15052 --- [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2022-11-04 21:39:06.529  INFO 15052 --- [http-nio-8081-exec-3] jiangziyi.config.AuthInterceptor         : request tokenValue === null
-2022-11-04 21:39:16.578  WARN 15052 --- [http-nio-8081-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:39:16.579  INFO 15052 --- [http-nio-8081-exec-10] jiangziyi.config.AuthInterceptor         : request tokenValue === null
-2022-11-04 21:39:39.515  WARN 15052 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:39:39.517  INFO 15052 --- [http-nio-8081-exec-2] jiangziyi.config.AuthInterceptor         : request tokenValue === null
-2022-11-04 21:40:28.373  INFO 15052 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:40:32.196  INFO 26784 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 26784 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 21:40:32.197 DEBUG 26784 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:40:32.198  INFO 26784 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:40:32.230  INFO 26784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 21:40:32.230  INFO 26784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 21:40:32.998  INFO 26784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 21:40:33.004  INFO 26784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 21:40:33.004  INFO 26784 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 21:40:33.062  INFO 26784 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 21:40:33.062  INFO 26784 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 832 ms
-2022-11-04 21:40:33.427  INFO 26784 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:40:33.570  INFO 26784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 21:40:33.598  INFO 26784 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-04 21:40:33.598  INFO 26784 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-11-04 21:40:33.599  INFO 26784 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-11-04 21:40:33.600  INFO 26784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 21:40:33.607  INFO 26784 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.717 seconds (JVM running for 2.437)
-2022-11-04 21:40:36.887  WARN 26784 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:40:36.896  INFO 26784 --- [http-nio-8081-exec-4] jiangziyi.config.AuthInterceptor         : request tokenValue === null
-2022-11-04 21:40:36.896  INFO 26784 --- [http-nio-8081-exec-4] jiangziyi.config.AuthInterceptor         : isLogin === true
-2022-11-04 21:41:20.040  INFO 26784 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:41:23.930  INFO 9368 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 9368 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 21:41:23.931 DEBUG 9368 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:41:23.931  INFO 9368 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:41:23.963  INFO 9368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 21:41:23.963  INFO 9368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 21:41:24.743  INFO 9368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 21:41:24.748  INFO 9368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 21:41:24.749  INFO 9368 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 21:41:24.808  INFO 9368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 21:41:24.808  INFO 9368 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 844 ms
-2022-11-04 21:41:25.194  INFO 9368 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:41:25.339  INFO 9368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 21:41:25.367  INFO 9368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-04 21:41:25.367  INFO 9368 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-11-04 21:41:25.368  INFO 9368 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-11-04 21:41:25.369  INFO 9368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 21:41:25.376  INFO 9368 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.737 seconds (JVM running for 2.384)
-2022-11-04 21:41:27.843  WARN 9368 --- [http-nio-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:41:27.851  INFO 9368 --- [http-nio-8081-exec-5] jiangziyi.config.AuthInterceptor         : getRequestURL === http://localhost:8081/error
-2022-11-04 21:41:27.851  INFO 9368 --- [http-nio-8081-exec-5] jiangziyi.config.AuthInterceptor         : isLogin === true
-2022-11-04 21:42:18.625  INFO 9368 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:42:22.522  INFO 27360 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 27360 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 21:42:22.523 DEBUG 27360 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:42:22.523  INFO 27360 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:42:22.554  INFO 27360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 21:42:22.554  INFO 27360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 21:42:23.298  INFO 27360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 21:42:23.304  INFO 27360 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 21:42:23.305  INFO 27360 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 21:42:23.361  INFO 27360 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 21:42:23.362  INFO 27360 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 808 ms
-2022-11-04 21:42:23.727  INFO 27360 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:42:23.867  INFO 27360 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 21:42:23.895  INFO 27360 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-04 21:42:23.895  INFO 27360 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-11-04 21:42:23.896  INFO 27360 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-11-04 21:42:23.897  INFO 27360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 21:42:23.905  INFO 27360 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.68 seconds (JVM running for 2.303)
-2022-11-04 21:42:29.619  WARN 27360 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:43:08.426  WARN 27360 --- [http-nio-8081-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:43:19.112  INFO 27360 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:43:22.706  INFO 11504 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 11504 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 21:43:22.707 DEBUG 11504 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:43:22.708  INFO 11504 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:43:22.740  INFO 11504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 21:43:22.740  INFO 11504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 21:43:23.498  INFO 11504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 21:43:23.504  INFO 11504 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 21:43:23.504  INFO 11504 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 21:43:23.558  INFO 11504 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 21:43:23.558  INFO 11504 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 818 ms
-2022-11-04 21:43:23.932  INFO 11504 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:43:24.071  INFO 11504 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 21:43:24.099  INFO 11504 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-04 21:43:24.099  INFO 11504 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-11-04 21:43:24.099  INFO 11504 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-11-04 21:43:24.100  INFO 11504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 21:43:24.108  INFO 11504 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.701 seconds (JVM running for 2.338)
-2022-11-04 21:43:26.839  WARN 11504 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:43:26.847  INFO 11504 --- [http-nio-8081-exec-1] jiangziyi.config.AuthInterceptor         : getRequestURL === http://localhost:8081/error
-2022-11-04 21:43:26.848  INFO 11504 --- [http-nio-8081-exec-1] jiangziyi.config.AuthInterceptor         : isLogin === true
-2022-11-04 21:45:18.103  INFO 11504 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:45:21.758  INFO 15956 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 15956 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 21:45:21.758 DEBUG 15956 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:45:21.759  INFO 15956 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:45:21.791  INFO 15956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 21:45:21.791  INFO 15956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 21:45:22.541  INFO 15956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 21:45:22.547  INFO 15956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 21:45:22.547  INFO 15956 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 21:45:22.604  INFO 15956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 21:45:22.604  INFO 15956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 813 ms
-2022-11-04 21:45:22.978  INFO 15956 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:45:23.117  INFO 15956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 21:45:23.143  INFO 15956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-04 21:45:23.143  INFO 15956 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-11-04 21:45:23.144  INFO 15956 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-11-04 21:45:23.145  INFO 15956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 21:45:23.152  INFO 15956 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.692 seconds (JVM running for 2.315)
-2022-11-04 21:45:27.257  WARN 15956 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:46:01.924  INFO 15956 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:46:05.512  INFO 3888 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 3888 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 21:46:05.513 DEBUG 3888 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:46:05.513  INFO 3888 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:46:05.546  INFO 3888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 21:46:05.546  INFO 3888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 21:46:06.304  INFO 3888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 21:46:06.310  INFO 3888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 21:46:06.310  INFO 3888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 21:46:06.369  INFO 3888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 21:46:06.370  INFO 3888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 824 ms
-2022-11-04 21:46:06.711  INFO 3888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:46:06.857  INFO 3888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 21:46:06.884  INFO 3888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-04 21:46:06.885  INFO 3888 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-11-04 21:46:06.885  INFO 3888 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-11-04 21:46:06.886  INFO 3888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 21:46:06.894  INFO 3888 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.68 seconds (JVM running for 2.321)
-2022-11-04 21:46:09.631  WARN 3888 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:46:42.065  INFO 3888 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:46:44.469  INFO 5864 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 5864 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 21:46:44.470 DEBUG 5864 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:46:44.470  INFO 5864 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:46:44.502  INFO 5864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 21:46:44.502  INFO 5864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 21:46:45.268  INFO 5864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 21:46:45.274  INFO 5864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 21:46:45.275  INFO 5864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 21:46:45.334  INFO 5864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 21:46:45.334  INFO 5864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 831 ms
-2022-11-04 21:46:45.706  INFO 5864 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:46:45.846  INFO 5864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 21:46:45.873  INFO 5864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-04 21:46:45.873  INFO 5864 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-11-04 21:46:45.874  INFO 5864 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-11-04 21:46:45.875  INFO 5864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 21:46:45.882  INFO 5864 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.714 seconds (JVM running for 2.347)
-2022-11-04 21:46:47.810  WARN 5864 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:46:50.758  WARN 5864 --- [http-nio-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:46:51.656  WARN 5864 --- [http-nio-8081-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:47:08.284  INFO 5864 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:47:10.660  INFO 6928 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 6928 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 21:47:10.661 DEBUG 6928 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:47:10.661  INFO 6928 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:47:10.694  INFO 6928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 21:47:10.694  INFO 6928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 21:47:11.446  INFO 6928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 21:47:11.452  INFO 6928 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 21:47:11.453  INFO 6928 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 21:47:11.510  INFO 6928 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 21:47:11.510  INFO 6928 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 815 ms
-2022-11-04 21:47:11.859  INFO 6928 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:47:12.001  INFO 6928 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 21:47:12.030  INFO 6928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 21:47:12.037  INFO 6928 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.677 seconds (JVM running for 2.365)
-2022-11-04 21:47:19.268  INFO 6928 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-04 21:47:19.269  INFO 6928 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-11-04 21:47:19.270  INFO 6928 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-11-04 21:47:19.297  WARN 6928 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:47:31.523  INFO 6928 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:47:35.222  INFO 18332 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 18332 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 21:47:35.223 DEBUG 18332 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:47:35.223  INFO 18332 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:47:35.256  INFO 18332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 21:47:35.256  INFO 18332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 21:47:36.012  INFO 18332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 21:47:36.020  INFO 18332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 21:47:36.020  INFO 18332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 21:47:36.077  INFO 18332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 21:47:36.078  INFO 18332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 822 ms
-2022-11-04 21:47:36.426  INFO 18332 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:47:36.566  INFO 18332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 21:47:36.593  INFO 18332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 21:47:36.600  INFO 18332 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.681 seconds (JVM running for 2.308)
-2022-11-04 21:47:41.363  INFO 18332 --- [http-nio-8081-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-04 21:47:41.363  INFO 18332 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-11-04 21:47:41.364  INFO 18332 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-11-04 21:47:41.390  WARN 18332 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:48:19.596  WARN 18332 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:51:02.269  INFO 18332 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:51:06.060  INFO 21644 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 21644 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 21:51:06.060 DEBUG 21644 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:51:06.061  INFO 21644 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:51:06.095  INFO 21644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 21:51:06.095  INFO 21644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 21:51:06.860  INFO 21644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 21:51:06.865  INFO 21644 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 21:51:06.866  INFO 21644 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 21:51:06.924  INFO 21644 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 21:51:06.924  INFO 21644 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 828 ms
-2022-11-04 21:51:07.292  INFO 21644 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:51:07.498  INFO 21644 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 21:51:07.531  INFO 21644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 21:51:07.539  INFO 21644 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.802 seconds (JVM running for 2.529)
-2022-11-04 21:51:07.717  INFO 21644 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 21:51:18.632  INFO 10564 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 10564 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 21:51:18.633 DEBUG 10564 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 21:51:18.634  INFO 10564 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 21:51:18.666  INFO 10564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 21:51:18.666  INFO 10564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 21:51:19.443  INFO 10564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 21:51:19.449  INFO 10564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 21:51:19.449  INFO 10564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 21:51:19.508  INFO 10564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 21:51:19.508  INFO 10564 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 842 ms
-2022-11-04 21:51:19.882  INFO 10564 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 21:51:20.052  INFO 10564 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 21:51:20.082  INFO 10564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 21:51:20.090  INFO 10564 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.762 seconds (JVM running for 2.397)
-2022-11-04 21:51:26.958  INFO 10564 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-04 21:51:26.959  INFO 10564 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-11-04 21:51:26.960  INFO 10564 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-11-04 21:51:26.985  WARN 10564 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.login(jiangziyi.pojo.LoginUser)]
-2022-11-04 21:51:26.993  INFO 10564 --- [http-nio-8081-exec-2] jiangziyi.config.AuthInterceptor         : getRequestURL === http://localhost:8081/error
-2022-11-04 21:51:55.474  WARN 10564 --- [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public jiangziyi.sys.ResultObj jiangziyi.controller.LoginController.loginOut(jiangziyi.pojo.User)]
-2022-11-04 21:51:55.475  INFO 10564 --- [http-nio-8081-exec-7] jiangziyi.config.AuthInterceptor         : getRequestURL === http://localhost:8081/error
-2022-11-04 21:54:21.214  INFO 10564 --- [http-nio-8081-exec-6] jiangziyi.controller.LoginController     : login === jiangziyi
-2022-11-04 21:54:21.262  INFO 10564 --- [http-nio-8081-exec-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2022-11-04 21:54:21.785 DEBUG 10564 --- [http-nio-8081-exec-6] jiangziyi.dao.UserDao.getUserByName      : ==>  Preparing: select * from mybatis.user where name = ?
-2022-11-04 21:54:21.801 DEBUG 10564 --- [http-nio-8081-exec-6] jiangziyi.dao.UserDao.getUserByName      : ==> Parameters: jiangziyi(String)
-2022-11-04 21:54:21.817 DEBUG 10564 --- [http-nio-8081-exec-6] jiangziyi.dao.UserDao.getUserByName      : <==      Total: 1
-2022-11-04 22:06:02.451  INFO 10564 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2022-11-04 22:06:02.460  INFO 10564 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2022-11-04 22:06:05.095  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 8540 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 22:06:05.095 DEBUG 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:06:05.096  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:06:05.127  INFO 8540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-04 22:06:05.127  INFO 8540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-04 22:06:05.902  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 22:06:05.908  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 22:06:05.909  INFO 8540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 22:06:05.964  INFO 8540 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-11-04 22:06:05.964  INFO 8540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 836 ms
-2022-11-04 22:06:06.317  INFO 8540 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:06:06.461  INFO 8540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 22:06:06.490  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 22:06:06.497  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.703 seconds (JVM running for 2.352)
-2022-11-04 22:06:14.892  INFO 8540 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 18 class path changes (0 additions, 18 deletions, 0 modifications)
-2022-11-04 22:06:15.063  INFO 8540 --- [Thread-9] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-11-04 22:06:15.073  INFO 8540 --- [Thread-9] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 22:06:18.828  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 8540 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 22:06:18.828 DEBUG 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:06:18.829  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:06:18.976  WARN 8540 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[jiangziyi]' package. Please check your configuration.
-2022-11-04 22:06:19.038  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 22:06:19.038  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 22:06:19.038  INFO 8540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 22:06:19.087  INFO 8540 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2022-11-04 22:06:19.088  INFO 8540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 257 ms
-2022-11-04 22:06:19.131  INFO 8540 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:06:19.193  WARN 8540 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-2022-11-04 22:06:19.193  INFO 8540 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 22:06:19.194  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-11-04 22:06:19.198  INFO 8540 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+2022-11-06 10:55:36.746  INFO 30612 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 30612 (started by jzywd in D:\Git\Java Code)
+2022-11-06 10:55:36.774 DEBUG 30612 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 10:55:36.775  INFO 30612 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 10:55:38.662  INFO 30612 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 10:55:39.068  INFO 30612 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.632 seconds (JVM running for 3.501)
+2022-11-06 10:55:39.381  INFO 30612 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 11:10:00.940  INFO 13080 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 13080 (started by jzywd in D:\Git\Java Code)
+2022-11-06 11:10:00.941 DEBUG 13080 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 11:10:00.941  INFO 13080 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 11:10:02.320  INFO 13080 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 11:10:02.685  INFO 13080 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.041 seconds (JVM running for 2.837)
+2022-11-06 11:10:02.906  INFO 13080 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 13:09:44.470  INFO 16780 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 16780 (started by jzywd in D:\Git\Java Code)
+2022-11-06 13:09:44.471 DEBUG 16780 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 13:09:44.472  INFO 16780 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 13:09:48.368  INFO 16780 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 13:09:49.575  INFO 16780 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 5.47 seconds (JVM running for 6.439)
+2022-11-06 13:09:50.504  INFO 16780 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 13:11:01.180  INFO 23352 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 23352 (started by jzywd in D:\Git\Java Code)
+2022-11-06 13:11:01.183 DEBUG 23352 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 13:11:01.184  INFO 23352 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 13:11:04.789  INFO 23352 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 13:11:05.498  INFO 23352 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 4.927 seconds (JVM running for 6.416)
+2022-11-06 13:11:06.228  INFO 23352 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 13:19:35.109  INFO 30936 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 30936 (started by jzywd in D:\Git\Java Code)
+2022-11-06 13:19:35.110 DEBUG 30936 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 13:19:35.112  INFO 30936 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 13:19:41.477  INFO 30936 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 13:19:43.702  INFO 30936 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 9.82 seconds (JVM running for 12.695)
+2022-11-06 13:19:44.909  INFO 30936 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 16:39:38.087  INFO 19232 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 19232 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 16:39:38.089 DEBUG 19232 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 16:39:38.089  INFO 19232 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 16:39:38.125  INFO 19232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 16:39:38.125  INFO 19232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 16:39:38.965  INFO 19232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 16:39:38.971  INFO 19232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 16:39:38.971  INFO 19232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 16:39:39.030  INFO 19232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-06 16:39:39.030  INFO 19232 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 904 ms
+2022-11-06 16:39:39.402  INFO 19232 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 16:39:39.551  INFO 19232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-06 16:39:39.579  INFO 19232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-06 16:39:39.587  INFO 19232 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.817 seconds (JVM running for 2.522)
+2022-11-06 16:39:45.014  INFO 19232 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 16:39:57.043  INFO 24912 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 24912 (started by jzywd in D:\Git\Java Code)
+2022-11-06 16:39:57.044 DEBUG 24912 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 16:39:57.044  INFO 24912 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 16:39:58.510  INFO 24912 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 16:39:58.907  INFO 24912 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.159 seconds (JVM running for 3.105)
+2022-11-06 16:39:59.135  INFO 24912 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 16:49:12.077  INFO 28988 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 28988 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 16:49:12.078 DEBUG 28988 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 16:49:12.079  INFO 28988 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 16:49:12.115  INFO 28988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 16:49:12.115  INFO 28988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 16:49:12.991  INFO 28988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 16:49:12.998  INFO 28988 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 16:49:12.998  INFO 28988 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 16:49:13.063  INFO 28988 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-06 16:49:13.063  INFO 28988 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 948 ms
+2022-11-06 16:49:13.458  INFO 28988 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 16:49:13.618  INFO 28988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-06 16:49:13.648  INFO 28988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-06 16:49:13.769  INFO 28988 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 2.052 seconds (JVM running for 2.772)
+2022-11-06 16:49:14.057  INFO 28988 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 16:49:33.063  INFO 26892 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 26892 (started by jzywd in D:\Git\Java Code)
+2022-11-06 16:49:33.064 DEBUG 26892 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 16:49:33.065  INFO 26892 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 16:49:34.704  INFO 26892 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 16:49:35.130  INFO 26892 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.412 seconds (JVM running for 3.368)
+2022-11-06 16:49:35.402  INFO 26892 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 17:06:41.150  INFO 13948 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 13948 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 17:06:41.151 DEBUG 13948 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:06:41.151  INFO 13948 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:06:41.187  INFO 13948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 17:06:41.188  INFO 13948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 17:06:41.952  INFO 13948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 17:06:41.959  INFO 13948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 17:06:41.959  INFO 13948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 17:06:42.018  INFO 13948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-06 17:06:42.019  INFO 13948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 830 ms
+2022-11-06 17:06:42.391  INFO 13948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:06:42.535  INFO 13948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-06 17:06:42.563  INFO 13948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-06 17:06:42.570  INFO 13948 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.753 seconds (JVM running for 2.42)
+2022-11-06 17:11:57.453  INFO 13948 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 17:12:01.359  INFO 7656 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 7656 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 17:12:01.360 DEBUG 7656 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:12:01.360  INFO 7656 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:12:01.391  INFO 7656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 17:12:01.392  INFO 7656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 17:12:02.152  INFO 7656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 17:12:02.158  INFO 7656 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 17:12:02.159  INFO 7656 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 17:12:02.216  INFO 7656 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-06 17:12:02.216  INFO 7656 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 824 ms
+2022-11-06 17:12:02.590  INFO 7656 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:12:02.734  INFO 7656 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-06 17:12:02.761  INFO 7656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-06 17:12:02.769  INFO 7656 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.709 seconds (JVM running for 2.37)
+2022-11-06 17:12:42.964  INFO 7656 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 17:12:42.966  INFO 7656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-06 17:12:42.966  INFO 7656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-06 17:12:43.089  INFO 7656 --- [http-nio-8080-exec-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-06 17:12:43.920 DEBUG 7656 --- [http-nio-8080-exec-3] jiangziyi.dao.UserDao.getUserByName      : ==>  Preparing: select * from user where name = ?
+2022-11-06 17:12:43.936 DEBUG 7656 --- [http-nio-8080-exec-3] jiangziyi.dao.UserDao.getUserByName      : ==> Parameters: test(String)
+2022-11-06 17:12:43.990 DEBUG 7656 --- [http-nio-8080-exec-3] jiangziyi.dao.UserDao.getUserByName      : <==      Total: 1
+2022-11-06 17:12:44.013 DEBUG 7656 --- [http-nio-8080-exec-3] j.dao.UserDao.updateUserLastLoginTime    : ==>  Preparing: update user SET lastLoginTime = ? WHERE id = ?
+2022-11-06 17:12:44.014 DEBUG 7656 --- [http-nio-8080-exec-3] j.dao.UserDao.updateUserLastLoginTime    : ==> Parameters: java.text.SimpleDateFormat@5069d960(String), 4(Integer)
+2022-11-06 17:12:44.107  INFO 7656 --- [http-nio-8080-exec-4] jiangziyi.config.AuthInterceptor         : getRequestURL === http://localhost:8080/queryUserById/4
+2022-11-06 17:12:44.110 DEBUG 7656 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.queryUserById      : ==>  Preparing: select * from user where id = ?;
+2022-11-06 17:12:44.110 DEBUG 7656 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.queryUserById      : ==> Parameters: 4(Integer)
+2022-11-06 17:12:44.133 DEBUG 7656 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.queryUserById      : <==      Total: 1
+2022-11-06 17:14:11.105  INFO 7656 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-11-06 17:14:11.114  INFO 7656 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-11-06 17:14:14.995  INFO 23228 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 23228 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 17:14:14.995 DEBUG 23228 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:14:14.996  INFO 23228 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:14:15.028  INFO 23228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 17:14:15.029  INFO 23228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 17:14:15.891  INFO 23228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 17:14:15.897  INFO 23228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 17:14:15.898  INFO 23228 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 17:14:15.956  INFO 23228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-06 17:14:15.956  INFO 23228 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 927 ms
+2022-11-06 17:14:16.349  INFO 23228 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:14:16.498  INFO 23228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-06 17:14:16.525  INFO 23228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-06 17:14:16.533  INFO 23228 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.831 seconds (JVM running for 2.489)
+2022-11-06 17:14:28.067  INFO 23228 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 17:14:32.407  INFO 28988 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 28988 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 17:14:32.408 DEBUG 28988 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:14:32.409  INFO 28988 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:14:32.447  INFO 28988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 17:14:32.448  INFO 28988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 17:14:33.484  INFO 28988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 17:14:33.491  INFO 28988 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 17:14:33.491  INFO 28988 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 17:14:33.556  INFO 28988 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-06 17:14:33.557  INFO 28988 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1109 ms
+2022-11-06 17:14:34.156  INFO 28988 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:14:34.345  INFO 28988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-06 17:14:34.383  INFO 28988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-06 17:14:34.392  INFO 28988 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 2.304 seconds (JVM running for 3.047)
+2022-11-06 17:14:41.087  INFO 28988 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 17:14:41.088  INFO 28988 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-06 17:14:41.088  INFO 28988 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-06 17:14:41.212  INFO 28988 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-06 17:14:41.896 DEBUG 28988 --- [http-nio-8080-exec-2] jiangziyi.dao.UserDao.getUserByName      : ==>  Preparing: select * from user where name = ?
+2022-11-06 17:14:41.912 DEBUG 28988 --- [http-nio-8080-exec-2] jiangziyi.dao.UserDao.getUserByName      : ==> Parameters: test(String)
+2022-11-06 17:14:41.950 DEBUG 28988 --- [http-nio-8080-exec-2] jiangziyi.dao.UserDao.getUserByName      : <==      Total: 1
+2022-11-06 17:14:41.956  INFO 28988 --- [http-nio-8080-exec-2] jiangziyi.controller.LoginController     : dateSun Nov 06 17:14:41 CST 2022
+2022-11-06 17:14:41.956  INFO 28988 --- [http-nio-8080-exec-2] jiangziyi.controller.LoginController     : -----java.text.SimpleDateFormat@5069d960
+2022-11-06 17:14:41.980 DEBUG 28988 --- [http-nio-8080-exec-2] j.dao.UserDao.updateUserLastLoginTime    : ==>  Preparing: update user SET lastLoginTime = ? WHERE id = ?
+2022-11-06 17:14:41.980 DEBUG 28988 --- [http-nio-8080-exec-2] j.dao.UserDao.updateUserLastLoginTime    : ==> Parameters: java.text.SimpleDateFormat@5069d960(String), 4(Integer)
+2022-11-06 17:14:42.060  INFO 28988 --- [http-nio-8080-exec-6] jiangziyi.config.AuthInterceptor         : getRequestURL === http://localhost:8080/queryUserById/4
+2022-11-06 17:14:42.063 DEBUG 28988 --- [http-nio-8080-exec-6] jiangziyi.dao.UserDao.queryUserById      : ==>  Preparing: select * from user where id = ?;
+2022-11-06 17:14:42.064 DEBUG 28988 --- [http-nio-8080-exec-6] jiangziyi.dao.UserDao.queryUserById      : ==> Parameters: 4(Integer)
+2022-11-06 17:14:42.086 DEBUG 28988 --- [http-nio-8080-exec-6] jiangziyi.dao.UserDao.queryUserById      : <==      Total: 1
+2022-11-06 17:15:41.588  INFO 28988 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-11-06 17:15:41.591  INFO 28988 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-11-06 17:15:45.147  INFO 19120 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 19120 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 17:15:45.148 DEBUG 19120 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:15:45.149  INFO 19120 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:15:45.183  INFO 19120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 17:15:45.183  INFO 19120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 17:15:45.977  INFO 19120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 17:15:45.982  INFO 19120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 17:15:45.983  INFO 19120 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 17:15:46.042  INFO 19120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-06 17:15:46.042  INFO 19120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 858 ms
+2022-11-06 17:15:46.420  INFO 19120 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:15:46.567  INFO 19120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-06 17:15:46.597  INFO 19120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-06 17:15:46.604  INFO 19120 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.751 seconds (JVM running for 2.401)
+2022-11-06 17:15:55.378  INFO 19120 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 17:15:55.378  INFO 19120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-06 17:15:55.378  INFO 19120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-06 17:15:55.510  INFO 19120 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-06 17:15:56.140 DEBUG 19120 --- [http-nio-8080-exec-2] jiangziyi.dao.UserDao.getUserByName      : ==>  Preparing: select * from user where name = ?
+2022-11-06 17:15:56.156 DEBUG 19120 --- [http-nio-8080-exec-2] jiangziyi.dao.UserDao.getUserByName      : ==> Parameters: test(String)
+2022-11-06 17:15:56.190 DEBUG 19120 --- [http-nio-8080-exec-2] jiangziyi.dao.UserDao.getUserByName      : <==      Total: 1
+2022-11-06 17:15:56.193  INFO 19120 --- [http-nio-8080-exec-2] jiangziyi.controller.LoginController     : date20221106171556
+2022-11-06 17:15:56.214 DEBUG 19120 --- [http-nio-8080-exec-2] j.dao.UserDao.updateUserLastLoginTime    : ==>  Preparing: update user SET lastLoginTime = ? WHERE id = ?
+2022-11-06 17:15:56.215 DEBUG 19120 --- [http-nio-8080-exec-2] j.dao.UserDao.updateUserLastLoginTime    : ==> Parameters: java.text.SimpleDateFormat@5069d960(String), 4(Integer)
+2022-11-06 17:15:56.298  INFO 19120 --- [http-nio-8080-exec-4] jiangziyi.config.AuthInterceptor         : getRequestURL === http://localhost:8080/queryUserById/4
+2022-11-06 17:15:56.301 DEBUG 19120 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.queryUserById      : ==>  Preparing: select * from user where id = ?;
+2022-11-06 17:15:56.301 DEBUG 19120 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.queryUserById      : ==> Parameters: 4(Integer)
+2022-11-06 17:15:56.319 DEBUG 19120 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.queryUserById      : <==      Total: 1
+2022-11-06 17:17:05.982  INFO 19120 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-11-06 17:17:05.985  INFO 19120 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-11-06 17:17:28.360  INFO 27100 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 27100 (started by jzywd in D:\Git\Java Code)
+2022-11-06 17:17:28.360 DEBUG 27100 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:17:28.361  INFO 27100 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:17:29.966  INFO 27100 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:17:30.353  INFO 27100 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.305 seconds (JVM running for 3.099)
+2022-11-06 17:17:30.583  INFO 27100 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 17:29:07.168  INFO 29516 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 29516 (started by jzywd in D:\Git\Java Code)
+2022-11-06 17:29:07.169 DEBUG 29516 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:29:07.170  INFO 29516 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:29:08.634  INFO 29516 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:29:08.990  INFO 29516 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.126 seconds (JVM running for 3.042)
+2022-11-06 17:29:09.224  INFO 29516 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 17:43:18.171  INFO 11184 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 11184 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 17:43:18.172 DEBUG 11184 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:43:18.173  INFO 11184 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:43:18.210  INFO 11184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 17:43:18.210  INFO 11184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 17:43:19.118  INFO 11184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 17:43:19.127  INFO 11184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 17:43:19.127  INFO 11184 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 17:43:19.281  INFO 11184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-06 17:43:19.281  INFO 11184 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1070 ms
+2022-11-06 17:43:19.683  INFO 11184 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:43:19.845  INFO 11184 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-06 17:43:19.873  INFO 11184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-06 17:43:19.881  INFO 11184 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 2.081 seconds (JVM running for 2.813)
+2022-11-06 17:43:54.926  INFO 11184 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 17:43:54.926  INFO 11184 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-06 17:43:54.927  INFO 11184 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-06 17:43:55.057  INFO 11184 --- [http-nio-8080-exec-4] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-06 17:43:55.698 DEBUG 11184 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.getUserByName      : ==>  Preparing: select * from user where name = ?
+2022-11-06 17:43:55.715 DEBUG 11184 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.getUserByName      : ==> Parameters: test(String)
+2022-11-06 17:43:55.749 DEBUG 11184 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.getUserByName      : <==      Total: 1
+2022-11-06 17:43:55.771 DEBUG 11184 --- [http-nio-8080-exec-4] j.dao.UserDao.updateUserLastLoginTime    : ==>  Preparing: update user SET lastLoginTime = ? WHERE id = ?
+2022-11-06 17:43:55.772 DEBUG 11184 --- [http-nio-8080-exec-4] j.dao.UserDao.updateUserLastLoginTime    : ==> Parameters: 2022-11-06 17:43:55(String), 4(Integer)
+2022-11-06 17:43:55.869  INFO 11184 --- [http-nio-8080-exec-2] jiangziyi.config.AuthInterceptor         : getRequestURL === http://localhost:8080/queryUserById/4
+2022-11-06 17:43:55.871 DEBUG 11184 --- [http-nio-8080-exec-2] jiangziyi.dao.UserDao.queryUserById      : ==>  Preparing: select * from user where id = ?;
+2022-11-06 17:43:55.872 DEBUG 11184 --- [http-nio-8080-exec-2] jiangziyi.dao.UserDao.queryUserById      : ==> Parameters: 4(Integer)
+2022-11-06 17:43:55.891 DEBUG 11184 --- [http-nio-8080-exec-2] jiangziyi.dao.UserDao.queryUserById      : <==      Total: 1
+2022-11-06 17:44:54.050  INFO 11184 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-11-06 17:44:54.053  INFO 11184 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-11-06 17:44:57.965  INFO 6480 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 6480 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 17:44:57.966 DEBUG 6480 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:44:57.966  INFO 6480 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:44:58.000  INFO 6480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 17:44:58.000  INFO 6480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 17:44:58.798  INFO 6480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 17:44:58.803  INFO 6480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 17:44:58.804  INFO 6480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 17:44:58.859  INFO 6480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-06 17:44:58.859  INFO 6480 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 859 ms
+2022-11-06 17:44:59.236  INFO 6480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:44:59.378  INFO 6480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-06 17:44:59.406  INFO 6480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-06 17:44:59.413  INFO 6480 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.742 seconds (JVM running for 2.398)
+2022-11-06 17:45:08.950  INFO 6480 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 17:45:08.950  INFO 6480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-06 17:45:08.951  INFO 6480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-06 17:45:09.077  INFO 6480 --- [http-nio-8080-exec-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-06 17:45:09.761 DEBUG 6480 --- [http-nio-8080-exec-6] jiangziyi.dao.UserDao.getUserByName      : ==>  Preparing: select * from user where name = ?
+2022-11-06 17:45:09.777 DEBUG 6480 --- [http-nio-8080-exec-6] jiangziyi.dao.UserDao.getUserByName      : ==> Parameters: test(String)
+2022-11-06 17:45:09.814 DEBUG 6480 --- [http-nio-8080-exec-6] jiangziyi.dao.UserDao.getUserByName      : <==      Total: 1
+2022-11-06 17:45:09.835  INFO 6480 --- [http-nio-8080-exec-6] jiangziyi.controller.LoginController     : getLastLoginTime === 2022-11-06 17:43:55
+2022-11-06 17:45:09.846 DEBUG 6480 --- [http-nio-8080-exec-6] j.dao.UserDao.updateUserLastLoginTime    : ==>  Preparing: update user SET lastLoginTime = ? WHERE id = ?
+2022-11-06 17:45:09.846 DEBUG 6480 --- [http-nio-8080-exec-6] j.dao.UserDao.updateUserLastLoginTime    : ==> Parameters: 2022-11-06 17:45:09(String), 4(Integer)
+2022-11-06 17:45:09.928  INFO 6480 --- [http-nio-8080-exec-2] jiangziyi.config.AuthInterceptor         : getRequestURL === http://localhost:8080/queryUserById/4
+2022-11-06 17:45:09.930 DEBUG 6480 --- [http-nio-8080-exec-2] jiangziyi.dao.UserDao.queryUserById      : ==>  Preparing: select * from user where id = ?;
+2022-11-06 17:45:09.931 DEBUG 6480 --- [http-nio-8080-exec-2] jiangziyi.dao.UserDao.queryUserById      : ==> Parameters: 4(Integer)
+2022-11-06 17:45:09.953 DEBUG 6480 --- [http-nio-8080-exec-2] jiangziyi.dao.UserDao.queryUserById      : <==      Total: 1
+2022-11-06 17:46:30.000  INFO 6480 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-11-06 17:46:30.003  INFO 6480 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-11-06 17:46:34.030  INFO 12864 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 12864 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 17:46:34.031 DEBUG 12864 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:46:34.032  INFO 12864 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:46:34.068  INFO 12864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 17:46:34.068  INFO 12864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 17:46:34.899  INFO 12864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 17:46:34.905  INFO 12864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 17:46:34.906  INFO 12864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 17:46:34.968  INFO 12864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-06 17:46:34.968  INFO 12864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 900 ms
+2022-11-06 17:46:35.329  INFO 12864 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:46:35.508  INFO 12864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-06 17:46:35.536  INFO 12864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-06 17:46:35.545  INFO 12864 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.819 seconds (JVM running for 2.47)
+2022-11-06 17:46:41.808  INFO 12864 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 17:46:41.808  INFO 12864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-06 17:46:41.809  INFO 12864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-06 17:46:41.927  INFO 12864 --- [http-nio-8080-exec-4] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-06 17:46:42.574 DEBUG 12864 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.getUserByName      : ==>  Preparing: select * from user where name = ?
+2022-11-06 17:46:42.590 DEBUG 12864 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.getUserByName      : ==> Parameters: test(String)
+2022-11-06 17:46:42.657 DEBUG 12864 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.getUserByName      : <==      Total: 1
+2022-11-06 17:46:42.678  INFO 12864 --- [http-nio-8080-exec-4] jiangziyi.controller.LoginController     : getLastLoginTime === 2022-11-06 17:45:09
+2022-11-06 17:46:42.706  INFO 12864 --- [http-nio-8080-exec-10] jiangziyi.config.AuthInterceptor         : getRequestURL === http://localhost:8080/queryUserById/4
+2022-11-06 17:46:42.709 DEBUG 12864 --- [http-nio-8080-exec-10] jiangziyi.dao.UserDao.queryUserById      : ==>  Preparing: select * from user where id = ?;
+2022-11-06 17:46:42.709 DEBUG 12864 --- [http-nio-8080-exec-10] jiangziyi.dao.UserDao.queryUserById      : ==> Parameters: 4(Integer)
+2022-11-06 17:46:42.729 DEBUG 12864 --- [http-nio-8080-exec-10] jiangziyi.dao.UserDao.queryUserById      : <==      Total: 1
+2022-11-06 17:47:44.502  INFO 12864 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-11-06 17:47:44.505  INFO 12864 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-11-06 17:47:48.717  INFO 30432 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 30432 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 17:47:48.718 DEBUG 30432 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:47:48.720  INFO 30432 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:47:48.755  INFO 30432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 17:47:48.755  INFO 30432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 17:47:49.609  INFO 30432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 17:47:49.615  INFO 30432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 17:47:49.616  INFO 30432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 17:47:49.680  INFO 30432 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-06 17:47:49.680  INFO 30432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 925 ms
+2022-11-06 17:47:50.032  INFO 30432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:47:50.175  INFO 30432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-06 17:47:50.213  INFO 30432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-06 17:47:50.220  INFO 30432 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 1.824 seconds (JVM running for 2.706)
+2022-11-06 17:47:55.953  INFO 30432 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 17:47:55.953  INFO 30432 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-06 17:47:55.954  INFO 30432 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-06 17:47:56.072  INFO 30432 --- [http-nio-8080-exec-4] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-06 17:47:56.705 DEBUG 30432 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.getUserByName      : ==>  Preparing: select * from user where name = ?
+2022-11-06 17:47:56.729 DEBUG 30432 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.getUserByName      : ==> Parameters: test(String)
+2022-11-06 17:47:56.760 DEBUG 30432 --- [http-nio-8080-exec-4] jiangziyi.dao.UserDao.getUserByName      : <==      Total: 1
+2022-11-06 17:47:56.770  INFO 30432 --- [http-nio-8080-exec-4] jiangziyi.controller.LoginController     : getLastLoginTime === 2022-11-06 17:45:09
+2022-11-06 17:47:56.781 DEBUG 30432 --- [http-nio-8080-exec-4] j.dao.UserDao.updateUserLastLoginTime    : ==>  Preparing: update user SET lastLoginTime = ? WHERE id = ?
+2022-11-06 17:47:56.781 DEBUG 30432 --- [http-nio-8080-exec-4] j.dao.UserDao.updateUserLastLoginTime    : ==> Parameters: 2022-11-06 17:47:56(String), 4(Integer)
+2022-11-06 17:47:56.856  INFO 30432 --- [http-nio-8080-exec-3] jiangziyi.config.AuthInterceptor         : getRequestURL === http://localhost:8080/queryUserById/4
+2022-11-06 17:47:56.859 DEBUG 30432 --- [http-nio-8080-exec-3] jiangziyi.dao.UserDao.queryUserById      : ==>  Preparing: select * from user where id = ?;
+2022-11-06 17:47:56.859 DEBUG 30432 --- [http-nio-8080-exec-3] jiangziyi.dao.UserDao.queryUserById      : ==> Parameters: 4(Integer)
+2022-11-06 17:47:56.875 DEBUG 30432 --- [http-nio-8080-exec-3] jiangziyi.dao.UserDao.queryUserById      : <==      Total: 1
+2022-11-06 17:50:25.230  WARN 30432 --- [http-nio-8080-exec-7] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://175.24.185.194:13306/jzy?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.4, lastPacketReceivedIdleMillis : 148347
+2022-11-06 17:50:25.504 DEBUG 30432 --- [http-nio-8080-exec-7] jiangziyi.dao.UserDao.getUserByName      : ==>  Preparing: select * from user where name = ?
+2022-11-06 17:50:25.505 DEBUG 30432 --- [http-nio-8080-exec-7] jiangziyi.dao.UserDao.getUserByName      : ==> Parameters: test(String)
+2022-11-06 17:50:25.528 DEBUG 30432 --- [http-nio-8080-exec-7] jiangziyi.dao.UserDao.getUserByName      : <==      Total: 1
+2022-11-06 17:50:25.529  INFO 30432 --- [http-nio-8080-exec-7] jiangziyi.controller.LoginController     : getLastLoginTime === 2022-11-06 17:47:56
+2022-11-06 17:50:25.529 DEBUG 30432 --- [http-nio-8080-exec-7] j.dao.UserDao.updateUserLastLoginTime    : ==>  Preparing: update user SET lastLoginTime = ? WHERE id = ?
+2022-11-06 17:50:25.530 DEBUG 30432 --- [http-nio-8080-exec-7] j.dao.UserDao.updateUserLastLoginTime    : ==> Parameters: 2022-11-06 17:50:25(String), 4(Integer)
+2022-11-06 17:50:25.587  INFO 30432 --- [http-nio-8080-exec-9] jiangziyi.config.AuthInterceptor         : getRequestURL === http://localhost:8080/queryUserById/4
+2022-11-06 17:50:25.587 DEBUG 30432 --- [http-nio-8080-exec-9] jiangziyi.dao.UserDao.queryUserById      : ==>  Preparing: select * from user where id = ?;
+2022-11-06 17:50:25.588 DEBUG 30432 --- [http-nio-8080-exec-9] jiangziyi.dao.UserDao.queryUserById      : ==> Parameters: 4(Integer)
+2022-11-06 17:50:25.611 DEBUG 30432 --- [http-nio-8080-exec-9] jiangziyi.dao.UserDao.queryUserById      : <==      Total: 1
+2022-11-06 17:51:10.299  INFO 30432 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 18 class path changes (0 additions, 18 deletions, 0 modifications)
+2022-11-06 17:51:10.522  INFO 30432 --- [Thread-9] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-06 17:51:10.523  INFO 30432 --- [Thread-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-06 17:51:10.526  WARN 30432 --- [Thread-9] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Create-1934856260] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2760)
+2022-11-06 17:51:10.527  WARN 30432 --- [Thread-9] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Destroy-1934856260] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2860)
+2022-11-06 17:51:10.527  WARN 30432 --- [Thread-9] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Thread-15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ cn.dev33.satoken.dao.SaTokenDaoDefaultImpl.lambda$initRefreshThread$0(SaTokenDaoDefaultImpl.java:221)
+ cn.dev33.satoken.dao.SaTokenDaoDefaultImpl$$Lambda$800/410632460.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:750)
+2022-11-06 17:51:10.532  INFO 30432 --- [Thread-9] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-11-06 17:51:10.547  INFO 30432 --- [Thread-9] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-11-06 17:51:53.649  INFO 30432 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 30432 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 17:51:53.650 DEBUG 30432 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:51:53.652  INFO 30432 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:51:53.811  WARN 30432 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[jiangziyi]' package. Please check your configuration.
+2022-11-06 17:51:53.881  INFO 30432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 17:51:53.882  INFO 30432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 17:51:53.883  INFO 30432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 17:51:53.926  INFO 30432 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-11-06 17:51:53.926  INFO 30432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 269 ms
+2022-11-06 17:51:53.983  INFO 30432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:51:54.040  WARN 30432 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
+2022-11-06 17:51:54.041  INFO 30432 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 17:51:54.041  INFO 30432 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-06 17:51:54.046  INFO 30432 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-11-04 22:06:19.205 ERROR 8540 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+2022-11-06 17:51:54.055 ERROR 30432 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.23.jar:5.3.23]
@@ -371,11 +399,11 @@ Caused by: org.springframework.core.NestedIOException: Failed to parse mapping r
 	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491) ~[mybatis-spring-2.0.7.jar:2.0.7]
 	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633) ~[mybatis-spring-2.0.7.jar:2.0.7]
 	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b620f6a9.CGLIB$sqlSessionFactory$2(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b620f6a9$$FastClassBySpringCGLIB$$13d4cf08.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$559fb8fe.CGLIB$sqlSessionFactory$2(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$559fb8fe$$FastClassBySpringCGLIB$$ab42c8f0.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.3.23.jar:5.3.23]
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.3.23.jar:5.3.23]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b620f6a9.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$559fb8fe.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_331]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_331]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_331]
@@ -406,353 +434,23 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.U
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.5.9.jar:3.5.9]
 	... 46 common frames omitted
 
-2022-11-04 22:06:20.630  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 8540 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 22:06:20.631 DEBUG 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:06:20.631  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:06:20.788  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 22:06:20.789  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 22:06:20.789  INFO 8540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 22:06:20.843  INFO 8540 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2022-11-04 22:06:20.844  INFO 8540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 212 ms
-2022-11-04 22:06:20.944  INFO 8540 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:06:20.985  INFO 8540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 22:06:20.997  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 22:06:21.001  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 0.388 seconds (JVM running for 16.856)
-2022-11-04 22:06:21.002  INFO 8540 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2022-11-04 22:06:22.063  INFO 20520 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 20520 (started by jzywd in D:\Git\Java Code)
-2022-11-04 22:06:22.064 DEBUG 20520 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:06:22.064  INFO 20520 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:06:23.367  INFO 20520 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:06:23.699  INFO 20520 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 1.92 seconds (JVM running for 2.701)
-2022-11-04 22:06:23.916  INFO 20520 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 22:10:08.302  INFO 8540 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 18 class path changes (0 additions, 18 deletions, 0 modifications)
-2022-11-04 22:10:08.634  INFO 8540 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-11-04 22:10:08.641  INFO 8540 --- [Thread-15] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 22:10:54.448  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 8540 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 22:10:54.449 DEBUG 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:10:54.449  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:10:54.577  WARN 8540 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[jiangziyi]' package. Please check your configuration.
-2022-11-04 22:10:54.625  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 22:10:54.625  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 22:10:54.626  INFO 8540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 22:10:54.644  INFO 8540 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2022-11-04 22:10:54.644  INFO 8540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 193 ms
-2022-11-04 22:10:54.674  INFO 8540 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:10:54.716  WARN 8540 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-2022-11-04 22:10:54.716  INFO 8540 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 22:10:54.716  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-11-04 22:10:54.721  INFO 8540 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-11-04 22:10:54.724 ERROR 8540 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) [spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-2.7.5.jar:2.7.5]
-	at jiangziyi.ProjectApplication.main(ProjectApplication.java:10) [classes/:na]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_331]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_331]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_331]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_331]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.7.5.jar:2.7.5]
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.23.jar:5.3.23]
-	... 24 common frames omitted
-Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-2.0.7.jar:2.0.7]
-	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491) ~[mybatis-spring-2.0.7.jar:2.0.7]
-	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633) ~[mybatis-spring-2.0.7.jar:2.0.7]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b620f6a9.CGLIB$sqlSessionFactory$2(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b620f6a9$$FastClassBySpringCGLIB$$13d4cf08.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.3.23.jar:5.3.23]
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.3.23.jar:5.3.23]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b620f6a9.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_331]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_331]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_331]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_331]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.23.jar:5.3.23]
-	... 25 common frames omitted
-Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611) ~[mybatis-spring-2.0.7.jar:2.0.7]
-	... 38 common frames omitted
-Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121) ~[mybatis-3.5.9.jar:3.5.9]
-	... 40 common frames omitted
-Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.9.jar:3.5.9]
-	... 44 common frames omitted
-Caused by: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.5.9.jar:3.5.9]
-	... 46 common frames omitted
-
-2022-11-04 22:10:56.148  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 8540 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 22:10:56.148 DEBUG 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:10:56.148  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:10:56.313  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 22:10:56.313  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 22:10:56.313  INFO 8540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 22:10:56.335  INFO 8540 --- [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2022-11-04 22:10:56.336  INFO 8540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 186 ms
-2022-11-04 22:10:56.417  INFO 8540 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:10:56.477  INFO 8540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 22:10:56.493  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 22:10:56.498  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 0.367 seconds (JVM running for 292.354)
-2022-11-04 22:10:56.500  INFO 8540 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2022-11-04 22:10:57.248  INFO 27504 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 27504 (started by jzywd in D:\Git\Java Code)
-2022-11-04 22:10:57.249 DEBUG 27504 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:10:57.249  INFO 27504 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:10:58.628  INFO 27504 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:10:58.980  INFO 27504 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.07 seconds (JVM running for 2.914)
-2022-11-04 22:10:59.203  INFO 27504 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 22:17:02.967  INFO 8540 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 18 class path changes (0 additions, 18 deletions, 0 modifications)
-2022-11-04 22:17:03.160  INFO 8540 --- [Thread-25] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-11-04 22:17:03.167  INFO 8540 --- [Thread-25] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 22:17:23.175  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 8540 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 22:17:23.175 DEBUG 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:17:23.176  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:17:23.319  WARN 8540 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[jiangziyi]' package. Please check your configuration.
-2022-11-04 22:17:23.356  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 22:17:23.357  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 22:17:23.358  INFO 8540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 22:17:23.381  INFO 8540 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2022-11-04 22:17:23.381  INFO 8540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 203 ms
-2022-11-04 22:17:23.426  INFO 8540 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:17:23.479  WARN 8540 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-2022-11-04 22:17:23.479  INFO 8540 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 22:17:23.479  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-11-04 22:17:23.484  INFO 8540 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-11-04 22:17:23.488 ERROR 8540 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) [spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-2.7.5.jar:2.7.5]
-	at jiangziyi.ProjectApplication.main(ProjectApplication.java:10) [classes/:na]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_331]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_331]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_331]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_331]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.7.5.jar:2.7.5]
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.23.jar:5.3.23]
-	... 24 common frames omitted
-Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-2.0.7.jar:2.0.7]
-	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491) ~[mybatis-spring-2.0.7.jar:2.0.7]
-	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633) ~[mybatis-spring-2.0.7.jar:2.0.7]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b620f6a9.CGLIB$sqlSessionFactory$2(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b620f6a9$$FastClassBySpringCGLIB$$13d4cf08.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.3.23.jar:5.3.23]
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.3.23.jar:5.3.23]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b620f6a9.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_331]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_331]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_331]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_331]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.23.jar:5.3.23]
-	... 25 common frames omitted
-Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611) ~[mybatis-spring-2.0.7.jar:2.0.7]
-	... 38 common frames omitted
-Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121) ~[mybatis-3.5.9.jar:3.5.9]
-	... 40 common frames omitted
-Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.9.jar:3.5.9]
-	... 44 common frames omitted
-Caused by: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.5.9.jar:3.5.9]
-	... 46 common frames omitted
-
-2022-11-04 22:17:24.915  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 8540 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 22:17:24.915 DEBUG 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:17:24.915  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:17:25.101  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 22:17:25.101  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 22:17:25.102  INFO 8540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 22:17:25.129  INFO 8540 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2022-11-04 22:17:25.129  INFO 8540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 213 ms
-2022-11-04 22:17:25.192  INFO 8540 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:17:25.230  INFO 8540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 22:17:25.244  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 22:17:25.247  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 0.351 seconds (JVM running for 681.103)
-2022-11-04 22:17:25.248  INFO 8540 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2022-11-04 22:17:26.357  INFO 26072 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 26072 (started by jzywd in D:\Git\Java Code)
-2022-11-04 22:17:26.358 DEBUG 26072 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:17:26.359  INFO 26072 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:17:28.118  INFO 26072 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:17:28.499  INFO 26072 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.464 seconds (JVM running for 3.329)
-2022-11-04 22:17:28.761  INFO 26072 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 22:27:08.654  INFO 8540 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 18 class path changes (0 additions, 18 deletions, 0 modifications)
-2022-11-04 22:27:08.908  INFO 8540 --- [Thread-35] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-11-04 22:27:08.916  INFO 8540 --- [Thread-35] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 22:27:52.935  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 8540 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 22:27:52.935 DEBUG 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:27:52.935  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:27:53.094  WARN 8540 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[jiangziyi]' package. Please check your configuration.
-2022-11-04 22:27:53.349  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 22:27:53.349  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 22:27:53.349  INFO 8540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 22:27:53.394  INFO 8540 --- [restartedMain] o.a.c.c.C.[Tomcat-7].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2022-11-04 22:27:53.394  INFO 8540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 458 ms
-2022-11-04 22:27:53.439  INFO 8540 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:27:53.492  WARN 8540 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-2022-11-04 22:27:53.492  INFO 8540 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 22:27:53.492  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-11-04 22:27:53.499  INFO 8540 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-11-04 22:27:53.502 ERROR 8540 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) [spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-2.7.5.jar:2.7.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-2.7.5.jar:2.7.5]
-	at jiangziyi.ProjectApplication.main(ProjectApplication.java:10) [classes/:na]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_331]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_331]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_331]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_331]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.7.5.jar:2.7.5]
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.23.jar:5.3.23]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.23.jar:5.3.23]
-	... 24 common frames omitted
-Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-2.0.7.jar:2.0.7]
-	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491) ~[mybatis-spring-2.0.7.jar:2.0.7]
-	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633) ~[mybatis-spring-2.0.7.jar:2.0.7]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b620f6a9.CGLIB$sqlSessionFactory$2(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b620f6a9$$FastClassBySpringCGLIB$$13d4cf08.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.3.23.jar:5.3.23]
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.3.23.jar:5.3.23]
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b620f6a9.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-2.2.2.jar:2.2.2]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_331]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_331]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_331]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_331]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.23.jar:5.3.23]
-	... 25 common frames omitted
-Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Git\Java Code\target\classes\mybatis\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611) ~[mybatis-spring-2.0.7.jar:2.0.7]
-	... 38 common frames omitted
-Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121) ~[mybatis-3.5.9.jar:3.5.9]
-	... 40 common frames omitted
-Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'jiangziyi.pojo.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.9.jar:3.5.9]
-	... 44 common frames omitted
-Caused by: java.lang.ClassNotFoundException: Cannot find class: jiangziyi.pojo.User
-	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.9.jar:3.5.9]
-	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.5.9.jar:3.5.9]
-	... 46 common frames omitted
-
-2022-11-04 22:27:54.926  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 8540 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
-2022-11-04 22:27:54.926 DEBUG 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:27:54.927  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:27:55.077  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2022-11-04 22:27:55.078  INFO 8540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-11-04 22:27:55.078  INFO 8540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2022-11-04 22:27:55.101  INFO 8540 --- [restartedMain] o.a.c.c.C.[Tomcat-8].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2022-11-04 22:27:55.101  INFO 8540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 173 ms
-2022-11-04 22:27:55.164  INFO 8540 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:27:55.214  INFO 8540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-04 22:27:55.228  INFO 8540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2022-11-04 22:27:55.231  INFO 8540 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 0.319 seconds (JVM running for 1311.086)
-2022-11-04 22:27:55.233  INFO 8540 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2022-11-04 22:27:56.038  INFO 26072 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 26072 (started by jzywd in D:\Git\Java Code)
-2022-11-04 22:27:56.038 DEBUG 26072 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-04 22:27:56.039  INFO 26072 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2022-11-04 22:27:57.375  INFO 26072 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-11-04 22:27:57.768  INFO 26072 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 2.031 seconds (JVM running for 2.848)
-2022-11-04 22:27:57.983  INFO 26072 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2022-11-04 22:37:02.363  INFO 8540 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 17:51:55.485  INFO 30432 --- [restartedMain] jiangziyi.ProjectApplication             : Starting ProjectApplication using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 30432 (D:\Git\Java Code\target\classes started by jzywd in D:\Git\Java Code)
+2022-11-06 17:51:55.485 DEBUG 30432 --- [restartedMain] jiangziyi.ProjectApplication             : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:51:55.485  INFO 30432 --- [restartedMain] jiangziyi.ProjectApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:51:55.683  INFO 30432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-06 17:51:55.684  INFO 30432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 17:51:55.684  INFO 30432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 17:51:55.719  INFO 30432 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-11-06 17:51:55.719  INFO 30432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 232 ms
+2022-11-06 17:51:55.801  INFO 30432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:51:55.870  INFO 30432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-06 17:51:55.887  INFO 30432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-06 17:51:55.892  INFO 30432 --- [restartedMain] jiangziyi.ProjectApplication             : Started ProjectApplication in 0.425 seconds (JVM running for 248.378)
+2022-11-06 17:51:55.893  INFO 30432 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-06 17:51:57.179  INFO 1972 --- [main] jiangziyi.ProjectApplicationTests        : Starting ProjectApplicationTests using Java 1.8.0_331 on DESKTOP-NFPCHEL with PID 1972 (started by jzywd in D:\Git\Java Code)
+2022-11-06 17:51:57.180 DEBUG 1972 --- [main] jiangziyi.ProjectApplicationTests        : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-06 17:51:57.181  INFO 1972 --- [main] jiangziyi.ProjectApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-11-06 17:51:59.731  INFO 1972 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-06 17:52:00.429  INFO 1972 --- [main] jiangziyi.ProjectApplicationTests        : Started ProjectApplicationTests in 3.628 seconds (JVM running for 4.606)
+2022-11-06 17:52:00.672  INFO 1972 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-11-06 17:52:56.361  INFO 30432 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...

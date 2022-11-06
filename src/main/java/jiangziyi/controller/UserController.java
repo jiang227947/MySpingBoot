@@ -128,6 +128,14 @@ public class UserController {
     }
 
     /*
+     * 根据id修改用户最后登录时间
+     * */
+    @PostMapping("/updateUserLastLoginTime")
+    public void updateUserLastLoginTime(Integer id, String lastLoginTime) {
+        this.userService.updateUserLastLoginTime(id, lastLoginTime);
+    }
+
+    /*
      * 根据id修改用户
      * */
     @PostMapping("/updateUserMyBatis")
