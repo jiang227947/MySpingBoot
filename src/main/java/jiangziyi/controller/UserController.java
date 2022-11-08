@@ -7,12 +7,14 @@ import jiangziyi.pojo.User;
 import jiangziyi.pojo.query.UserQuery;
 import jiangziyi.service.UserService;
 import jiangziyi.sys.ResultObj;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@Slf4j
 //@RequestMapping("user")
 public class UserController {
     @Autowired
@@ -85,9 +87,9 @@ public class UserController {
      * 新增用户
      * */
     @PostMapping("/addUser")
-    public ResultObj addUser(User user, UserQuery userQuery) {
+    public ResultObj addUser(@RequestBody User user, UserQuery userQuery) {
         Integer id = user.getId();
-        userQuery.setUserName(user.getName());
+        userQuery.setUserName(user.getUserName());
         List<User> userList = userService.getUserByUserName(userQuery);
         if (id != null) {
             if (userList.size() == 0) {
