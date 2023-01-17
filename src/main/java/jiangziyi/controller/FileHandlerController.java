@@ -1,5 +1,6 @@
 package jiangziyi.controller;
 
+import jiangziyi.comstant.DocumentConstant;
 import jiangziyi.pojo.query.PageParams;
 import jiangziyi.service.FileService;
 import jiangziyi.sys.ResultObj;
@@ -49,7 +50,7 @@ public class FileHandlerController {
     @PostMapping("/download")
     @ResponseBody
     public void download(@RequestBody String filename, HttpServletResponse response) {
-        File file = new File("D:/static/files/" + filename);
+        File file = new File(DocumentConstant.FILE_ADDRESS + filename);
         String fileName = file.getName();
         String fileAbsolutePath = file.getAbsolutePath();
         try (FileInputStream inputStream = new FileInputStream(fileAbsolutePath);
