@@ -4,6 +4,7 @@ import cn.dev33.satoken.stp.StpUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import jiangziyi.pojo.User;
+import jiangziyi.pojo.query.PageParams;
 import jiangziyi.pojo.query.UserQuery;
 import jiangziyi.service.UserService;
 import jiangziyi.sys.ResultObj;
@@ -23,10 +24,10 @@ public class UserController {
     /*
      * 查询所有用户
      * */
-    @GetMapping("/listUser")
+    @PostMapping("/listUser")
     @ResponseBody
-    public ResultObj listUser() {
-        return new ResultObj(200, "查询成功", userService.listUser());
+    public ResultObj listUser(@RequestBody PageParams pageParams) {
+        return new ResultObj(200, "查询成功", userService.listUser(pageParams));
     }
 
     /*

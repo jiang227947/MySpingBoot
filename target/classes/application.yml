@@ -1,0 +1,46 @@
+server:
+  port: 8080
+
+spring:
+  # 数据库配置
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: jzy@1998
+    # url: jdbc:mysql://175.24.185.194:3306/mysql?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    url: jdbc:mysql://175.24.185.194:13306/jzy?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #文件配置
+  servlet:
+    multipart:
+      enabled: true # 是否开启多文件上传
+      max-request-size: 100MB # 单个请求最大上传文件大小,默认10MB（不写单位，默认单位是字节）
+      max-file-size: 10MB # 单个文件最大上传大小,默认1MB（不写单位，默认单位是字节）
+mybatis:
+  type-aliases-package: jiangziyi.pojo #  别名
+  mapper-locations: classpath:/mybatis/*.xml #   xml文件
+
+# 日志系统
+logging:
+  file:
+    name: log/log.log
+  level:
+    root: info
+    jiangziyi: debug
+
+# Sa-Token配置
+sa-token:
+  # token名称 (同时也是cookie名称)
+  token-name: SaTokenAuth
+  # token有效期，单位s 默认30天, -1代表永不过期
+  timeout: 3600
+  # token临时有效期 (指定时间内无操作就视为token过期) 单位: 秒
+  activity-timeout: -1
+  # 是否允许同一账号并发登录 (为true时允许一起登录, 为false时新登录挤掉旧登录)
+  is-concurrent: true
+  # 在多人登录同一账号时，是否共用一个token (为true时所有登录共用一个token, 为false时每次登录新建一个token)
+  is-share: false
+  # token风格
+  token-style: uuid
+  # 是否输出操作日志
+  is-log: false

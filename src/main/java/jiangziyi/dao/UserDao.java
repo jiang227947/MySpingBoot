@@ -1,9 +1,11 @@
 package jiangziyi.dao;
 
 import jiangziyi.pojo.User;
+import jiangziyi.pojo.query.PageParams;
 import jiangziyi.pojo.query.UserQuery;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
@@ -13,7 +15,7 @@ import java.util.List;
 @Repository // 将userDao交由spring容器管理
 public interface UserDao {
     // 查询所有用户
-    List<User> listUser();
+    List<User> listUser(@Param("pageParams") PageParams pageParams);
 
     //select注解查询所有用户
     @Select("select * from mybatis.user")

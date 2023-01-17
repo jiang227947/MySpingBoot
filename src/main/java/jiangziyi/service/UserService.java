@@ -1,13 +1,14 @@
 package jiangziyi.service;
 
 import jiangziyi.pojo.User;
+import jiangziyi.pojo.query.PageParams;
 import jiangziyi.pojo.query.UserQuery;
 
 import java.util.List;
 
 public interface UserService {
     // 查询所有用户
-    List<User> listUser();
+    List<User> listUser(PageParams pageParams);
 
     // select注解查询所有用户
     List<User> findALLUserMyBatis();

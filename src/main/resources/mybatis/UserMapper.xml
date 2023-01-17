@@ -3,22 +3,25 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="jiangziyi.dao.UserDao">
-    <!--查询所有用户-->
-    <select id="listUser" resultType="jiangziyi.pojo.User">
-        select *
-        from user;
+    <!--分页查询所有用户-->
+    <select id="listUser" resultType="jiangziyi.pojo.User" parameterType="jiangziyi.pojo.query.PageParams">
+        select id, name, userName, role, roleName, lastLoginTime
+        from user
+        <if test="pageParams != null and pageParams.pageNum != null and pageParams.pageSize != null">
+            LIMIT #{pageParams.pageNum}, #{pageParams.pageSize}
+        </if>
     </select>
 
     <!--根据id查询用户-->
     <select id="queryUserById" parameterType="jiangziyi.pojo.query.UserQuery" resultType="jiangziyi.pojo.User">
-        select *
+        select id, name, userName, role, roleName, lastLoginTime
         from user
         where id = #{id};
     </select>
 
     <!--根据用户名模糊查询-->
     <select id="getUserByUserName" parameterType="jiangziyi.pojo.query.UserQuery" resultType="jiangziyi.pojo.User">
-        select *
+        select id, name, userName, role, roleName, lastLoginTime
         from user
         <where>
             <if test="userName != null and userName != ''">

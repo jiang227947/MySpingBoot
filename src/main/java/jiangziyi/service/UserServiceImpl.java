@@ -2,6 +2,7 @@ package jiangziyi.service;
 
 import jiangziyi.dao.UserDao;
 import jiangziyi.pojo.User;
+import jiangziyi.pojo.query.PageParams;
 import jiangziyi.pojo.query.UserQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,8 +17,8 @@ public class UserServiceImpl implements UserService {
 
     // 查询所有用户
     @Override
-    public List<User> listUser() {
-        return userDao.listUser();
+    public List<User> listUser(PageParams pageParams) {
+        return userDao.listUser(pageParams);
     }
 
     // select注解查询所有用户
