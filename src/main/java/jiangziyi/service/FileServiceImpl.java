@@ -44,8 +44,8 @@ public class FileServiceImpl implements FileService {
         }
         assert originalName != null;
         String imgRealPath = originalName.substring(originalName.lastIndexOf("."));
-        String path = "D:/static/files";
-//        String path = DocumentConstant.FILE_ADDRESS;
+//        String path = "D:/static/files";
+        String path = DocumentConstant.FILE_ADDRESS;
         try {
             // 创建 File 文件目录对象
             File filePath = new File(path);
