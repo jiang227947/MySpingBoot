@@ -15,9 +15,15 @@ public interface FileService {
     // 分页查询所有文件
     List<FilePojo> queryFileList(@Param("pageParams") PageParams pageParams);
 
+    // 根据文件名查询文件
+    FilePojo queryFileByFileName(String fileName);
+
     // 根据id查询文件
     FilePojo queryFileById(Integer id);
 
     // 删除文件
     int deleteFile(Integer id);
+
+    // 修改上传时间
+    int updateFileUpdateTime(FilePojo filePojo);
 }

@@ -3,20 +3,18 @@ package jiangziyi.service;
 import jiangziyi.comstant.DocumentConstant;
 import jiangziyi.dao.FileDao;
 import jiangziyi.pojo.FilePojo;
-import jiangziyi.pojo.User;
 import jiangziyi.pojo.query.PageParams;
 import jiangziyi.sys.ResultObj;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
-import java.util.Date;
 import java.util.List;
 
 @Slf4j
@@ -28,15 +26,26 @@ public class FileServiceImpl implements FileService {
 
     @Override
     public ResultObj uploadFile(MultipartFile file) {
-        if (file.getSize() > 10 * 1024 * 1024) {
-            return new ResultObj(-1, "附件体积不能超过10MB", null);
+        if (file.getSize() > (30 * 1024 * 1024)) {
+            return new ResultObj(-1, "附件体积不能超过30MB", null);
         }
         //文件名
         String originalName = file.getOriginalFilename();
+        // 查询文件
+        FilePojo queryFile = fileDao.queryFileByFileName(originalName);
+        if (queryFile != null) {
+            long updateTime = LocalDateTime.now().atZone(ZoneId.systemDefault()).toInstant().toEpochMilli();
+            FilePojo updateFile = new FilePojo(queryFile.getId(), queryFile.getFileName(), queryFile.getFilePath(), queryFile.getFileSize(), updateTime);
+            int update = fileDao.updateFileUpdateTime(updateFile);
+            if (update > 0) {
+                return new ResultObj(200, "文件上传成功", null);
+            }
+            return new ResultObj(-1, "文件上传失败", null);
+        }
         assert originalName != null;
         String imgRealPath = originalName.substring(originalName.lastIndexOf("."));
-//        String path = "D:/static/files";
-        String path = DocumentConstant.FILE_ADDRESS;
+        String path = "D:/static/files";
+//        String path = DocumentConstant.FILE_ADDRESS;
         try {
             // 创建 File 文件目录对象
             File filePath = new File(path);
@@ -53,7 +62,7 @@ public class FileServiceImpl implements FileService {
             file.transferTo(uploadPath);
             // 上传文件的时间戳
             long updateTime = LocalDateTime.now().atZone(ZoneId.systemDefault()).toInstant().toEpochMilli();
-            FilePojo filePojo = new FilePojo(null, originalName, path + "/" + originalName, updateTime);
+            FilePojo filePojo = new FilePojo(null, originalName, path + "/" + originalName, file.getSize(), updateTime);
             // 路径和名称存数据库
             fileDao.uploadFile(filePojo);
         } catch (IOException e) {
@@ -67,6 +76,12 @@ public class FileServiceImpl implements FileService {
     @Override
     public List<FilePojo> queryFileList(PageParams pageParams) {
         return fileDao.queryFileList(pageParams);
+    }
+
+    // 根据文件名查询文件
+    @Override
+    public FilePojo queryFileByFileName(String fileName) {
+        return fileDao.queryFileByFileName(fileName);
     }
 
     // 根据id查询文件
@@ -93,5 +108,11 @@ public class FileServiceImpl implements FileService {
             e.printStackTrace();
             return 0;
         }
+    }
+
+    // 修改上传时间
+    @Override
+    public int updateFileUpdateTime(FilePojo filePojo) {
+        return fileDao.updateFileUpdateTime(filePojo);
     }
 }

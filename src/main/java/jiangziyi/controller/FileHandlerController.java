@@ -34,6 +34,18 @@ public class FileHandlerController {
         return new ResultObj(200, "查询成功", fileService.queryFileList(pageParams));
     }
 
+    // 根据文件名查询文件
+    @PostMapping("/queryFileByFileName/{id}")
+    @ResponseBody
+    public ResultObj queryFileByFileName(@PathVariable("id") Integer id) {
+        int i = fileService.deleteFile(id);
+        if (i > 0) {
+            return new ResultObj(200, "删除成功", 1);
+        } else {
+            return new ResultObj(-1, "删除失败", null);
+        }
+    }
+
     // 删除文件
     @PostMapping("/deleteFile/{id}")
     @ResponseBody
@@ -50,7 +62,8 @@ public class FileHandlerController {
     @PostMapping("/download")
     @ResponseBody
     public void download(@RequestBody String filename, HttpServletResponse response) {
-        File file = new File(DocumentConstant.FILE_ADDRESS + filename);
+        File file = new File("D:/static/files/" + filename);
+//        File file = new File(DocumentConstant.FILE_ADDRESS + filename);
         String fileName = file.getName();
         String fileAbsolutePath = file.getAbsolutePath();
         try (FileInputStream inputStream = new FileInputStream(fileAbsolutePath);

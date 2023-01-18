@@ -15,7 +15,7 @@ spring:
     multipart:
       enabled: true # 是否开启多文件上传
       max-request-size: 100MB # 单个请求最大上传文件大小,默认10MB（不写单位，默认单位是字节）
-      max-file-size: 10MB # 单个文件最大上传大小,默认1MB（不写单位，默认单位是字节）
+      max-file-size: 30MB # 单个文件最大上传大小,默认1MB（不写单位，默认单位是字节）
 mybatis:
   type-aliases-package: jiangziyi.pojo #  别名
   mapper-locations: classpath:/mybatis/*.xml #   xml文件

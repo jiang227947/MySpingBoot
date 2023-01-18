@@ -5,22 +5,29 @@
 <mapper namespace="jiangziyi.dao.FileDao">
     <!--新增文件路径-->
     <insert id="uploadFile" parameterType="jiangziyi.pojo.FilePojo">
-        insert into file_table(file_path, file_name, update_time)
-        values (#{filePojo.filePath}, #{filePojo.fileName}, #{filePojo.updateTime})
+        insert into file_table(file_path, file_name, file_size, update_time)
+        values (#{filePojo.filePath}, #{filePojo.fileName}, #{filePojo.fileSize}, #{filePojo.updateTime})
     </insert>
 
     <!--分页查询所有文件-->
     <select id="queryFileList" parameterType="jiangziyi.pojo.query.PageParams" resultType="jiangziyi.pojo.FilePojo">
-        select id, file_name fileName, update_time updateTime
+        select id, file_name fileName, update_time updateTime,file_size fileSize
         from file_table
         <if test="pageParams != null and pageParams.pageNum != null and pageParams.pageSize != null">
             LIMIT #{pageParams.pageNum}, #{pageParams.pageSize}
         </if>
     </select>
 
+    <!--根据文件名查询文件-->
+    <select id="queryFileByFileName" parameterType="java.lang.String" resultType="jiangziyi.pojo.FilePojo">
+        select id,file_name fileName,file_Path filePath,file_size fileSize
+        from file_table
+        where file_name = #{file_name};
+    </select>
+
     <!--根据id查询文件-->
     <select id="queryFileById" parameterType="java.lang.Integer" resultType="jiangziyi.pojo.FilePojo">
-        select id,file_name fileName,file_Path filePath
+        select id,file_name fileName,file_Path filePath,file_size fileSize
         from file_table
         where id = #{id};
     </select>
@@ -31,4 +38,15 @@
         from file_table
         where id = #{id}
     </delete>
+
+    <!--根据id修改上传时间-->
+    <update id="updateFileUpdateTime" parameterType="jiangziyi.pojo.FilePojo">
+        update file_table
+        <set>
+            <if test="filePojo.updateTime != null">
+                update_time = #{filePojo.updateTime}
+            </if>
+        </set>
+        where id = #{filePojo.id};
+    </update>
 </mapper>
