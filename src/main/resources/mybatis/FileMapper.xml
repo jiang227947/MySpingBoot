@@ -18,6 +18,12 @@
         </if>
     </select>
 
+    <!--查询所有文件数量-->
+    <select id="countQueryFileList" parameterType="jiangziyi.pojo.query.PageParams" resultType="java.lang.Integer">
+        select count(id)
+        from file_table
+    </select>
+
     <!--根据文件名查询文件-->
     <select id="queryFileByFileName" parameterType="java.lang.String" resultType="jiangziyi.pojo.FilePojo">
         select id,file_name fileName,file_Path filePath,file_size fileSize

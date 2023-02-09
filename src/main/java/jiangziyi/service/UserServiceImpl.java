@@ -4,6 +4,8 @@ import jiangziyi.dao.UserDao;
 import jiangziyi.pojo.User;
 import jiangziyi.pojo.query.PageParams;
 import jiangziyi.pojo.query.UserQuery;
+import jiangziyi.sys.ResultList;
+import jiangziyi.sys.ResultObj;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,8 +19,30 @@ public class UserServiceImpl implements UserService {
 
     // 查询所有用户
     @Override
-    public List<User> listUser(PageParams pageParams) {
-        return userDao.listUser(pageParams);
+    public ResultList listUser(PageParams pageParams) {
+        Integer begin = (pageParams.getPageNum() - 1) * pageParams.getPageSize();
+        pageParams.setPageNum(begin);
+        // 查询所有用户的数量
+        Integer count = countQueryUser(pageParams);
+        Integer totalPage = null;
+        if (pageParams.getPageSize() == 0) {
+            totalPage = 0;
+        } else {
+            totalPage = ((count + pageParams.getPageSize() - 1) / pageParams.getPageSize());
+        }
+        return new ResultList(200,
+                "查询成功",
+                userDao.listUser(pageParams),
+                pageParams.getPageNum() + 1,
+                pageParams.getPageSize(),
+                totalPage,
+                count);
+    }
+
+    //查询所有用户的数量
+    @Override
+    public Integer countQueryUser(PageParams pageParams) {
+        return userDao.countQueryUser(pageParams);
     }
 
     // select注解查询所有用户

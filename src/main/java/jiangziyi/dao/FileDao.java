@@ -18,6 +18,9 @@ public interface FileDao {
     // 分页查询所有文件
     List<FilePojo> queryFileList(@Param("pageParams") PageParams pageParams);
 
+    // 查询文件总数
+    Integer countQueryFileList(@Param("pageParams") PageParams pageParams);
+
     // 根据文件名查询文件
     FilePojo queryFileByFileName(String fileName);
 
@@ -28,5 +31,5 @@ public interface FileDao {
     int deleteFile(Integer id);
 
     // 修改上传时间
-    int updateFileUpdateTime(@Param("filePojo")FilePojo filePojo);
+    int updateFileUpdateTime(@Param("filePojo") FilePojo filePojo);
 }

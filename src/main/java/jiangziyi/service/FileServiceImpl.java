@@ -4,15 +4,17 @@ import jiangziyi.comstant.DocumentConstant;
 import jiangziyi.dao.FileDao;
 import jiangziyi.pojo.FilePojo;
 import jiangziyi.pojo.query.PageParams;
+import jiangziyi.sys.ResultList;
 import jiangziyi.sys.ResultObj;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.annotations.Param;
+import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.File;
-import java.io.IOException;
+import javax.servlet.http.HttpServletResponse;
+import java.io.*;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.List;
@@ -72,10 +74,32 @@ public class FileServiceImpl implements FileService {
         return new ResultObj(200, "文件上传成功", null);
     }
 
-    // 查询所有用户
+    // 查询所有文件
     @Override
-    public List<FilePojo> queryFileList(PageParams pageParams) {
-        return fileDao.queryFileList(pageParams);
+    public ResultList queryFileList(PageParams pageParams) {
+        Integer begin = (pageParams.getPageNum() - 1) * pageParams.getPageSize();
+        pageParams.setPageNum(begin);
+        // 查询所有文件数量
+        Integer count = countQueryFileList(pageParams);
+        Integer totalPage = null;
+        if (pageParams.getPageSize() == 0) {
+            totalPage = 0;
+        } else {
+            totalPage = ((count + pageParams.getPageSize() - 1) / pageParams.getPageSize());
+        }
+        return new ResultList(200,
+                "查询成功",
+                fileDao.queryFileList(pageParams),
+                pageParams.getPageNum() + 1,
+                pageParams.getPageSize(),
+                totalPage,
+                count);
+    }
+
+    // 查询所有文件数量
+    @Override
+    public Integer countQueryFileList(PageParams pageParams) {
+        return fileDao.countQueryFileList(pageParams);
     }
 
     // 根据文件名查询文件

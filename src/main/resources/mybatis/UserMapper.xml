@@ -12,6 +12,12 @@
         </if>
     </select>
 
+    <!--查询所有用户数量-->
+    <select id="countQueryUser" resultType="java.lang.Integer" parameterType="jiangziyi.pojo.query.PageParams">
+        select count(id)
+        from user
+    </select>
+
     <!--根据id查询用户-->
     <select id="queryUserById" parameterType="jiangziyi.pojo.query.UserQuery" resultType="jiangziyi.pojo.User">
         select id, name, userName, role, roleName, lastLoginTime

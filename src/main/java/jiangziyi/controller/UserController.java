@@ -7,6 +7,7 @@ import jiangziyi.pojo.User;
 import jiangziyi.pojo.query.PageParams;
 import jiangziyi.pojo.query.UserQuery;
 import jiangziyi.service.UserService;
+import jiangziyi.sys.ResultList;
 import jiangziyi.sys.ResultObj;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,8 +27,8 @@ public class UserController {
      * */
     @PostMapping("/listUser")
     @ResponseBody
-    public ResultObj listUser(@RequestBody PageParams pageParams) {
-        return new ResultObj(200, "查询成功", userService.listUser(pageParams));
+    public ResultList listUser(@RequestBody PageParams pageParams) {
+        return userService.listUser(pageParams);
     }
 
     /*

@@ -1,7 +1,9 @@
 package jiangziyi.sys;
 
 import java.util.List;
-
+/**
+ * 返回结果
+ */
 public class ResultObj {
 
     private Integer code;

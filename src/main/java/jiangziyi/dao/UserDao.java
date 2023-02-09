@@ -16,6 +16,8 @@ import java.util.List;
 public interface UserDao {
     // 查询所有用户
     List<User> listUser(@Param("pageParams") PageParams pageParams);
+    // 查询所有用户数量
+    Integer countQueryUser(@Param("pageParams") PageParams pageParams);
 
     //select注解查询所有用户
     @Select("select * from mybatis.user")

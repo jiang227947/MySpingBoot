@@ -3,12 +3,17 @@ package jiangziyi.service;
 import jiangziyi.pojo.User;
 import jiangziyi.pojo.query.PageParams;
 import jiangziyi.pojo.query.UserQuery;
+import jiangziyi.sys.ResultList;
+import jiangziyi.sys.ResultObj;
 
 import java.util.List;
 
 public interface UserService {
     // 查询所有用户
-    List<User> listUser(PageParams pageParams);
+    ResultList listUser(PageParams pageParams);
+
+    //查询所有用户的数量
+    Integer countQueryUser(PageParams pageParams);
 
     // select注解查询所有用户
     List<User> findALLUserMyBatis();

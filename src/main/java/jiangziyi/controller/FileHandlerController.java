@@ -1,12 +1,15 @@
 package jiangziyi.controller;
 
 import jiangziyi.comstant.DocumentConstant;
+import jiangziyi.pojo.FilePojo;
 import jiangziyi.pojo.query.PageParams;
 import jiangziyi.service.FileService;
+import jiangziyi.sys.ResultList;
 import jiangziyi.sys.ResultObj;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -30,20 +33,22 @@ public class FileHandlerController {
     // 分页查询所有文件
     @PostMapping("/queryFileList")
     @ResponseBody
-    public ResultObj queryFileList(@RequestBody PageParams pageParams) {
-        return new ResultObj(200, "查询成功", fileService.queryFileList(pageParams));
+    public ResultList queryFileList(@RequestBody PageParams pageParams) {
+        return fileService.queryFileList(pageParams);
     }
 
     // 根据文件名查询文件
-    @PostMapping("/queryFileByFileName/{id}")
+    @PostMapping("/queryFileByFileName/{fileName}")
     @ResponseBody
-    public ResultObj queryFileByFileName(@PathVariable("id") Integer id) {
-        int i = fileService.deleteFile(id);
-        if (i > 0) {
-            return new ResultObj(200, "删除成功", 1);
-        } else {
-            return new ResultObj(-1, "删除失败", null);
-        }
+    public FilePojo queryFileByFileName(@PathVariable("fileName") String fileName) {
+        return fileService.queryFileByFileName(fileName);
+    }
+
+    // 根据文件名查询文件
+    @PostMapping("/queryFileById/{id}")
+    @ResponseBody
+    public FilePojo queryFileById(@PathVariable("id") Integer id) {
+        return fileService.queryFileById(id);
     }
 
     // 删除文件
