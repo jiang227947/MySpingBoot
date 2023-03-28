@@ -6,9 +6,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
-    password: jzy@1998
-    # url: jdbc:mysql://175.24.185.194:3306/mysql?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
-    url: jdbc:mysql://175.24.185.194:13306/jzy?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    password: ****
+    # url: jdbc:mysql://****:3306/mysql?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    url: jdbc:mysql://****:13306/jzy?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
     driver-class-name: com.mysql.cj.jdbc.Driver
     #文件配置
   servlet:
